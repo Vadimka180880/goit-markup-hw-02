@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-nav-list {
     color: var(--cl-navy-blue);
+    letter-spacing: 0.02em;
 }
 
 .header-nav-item a {
@@ -86,8 +87,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-address {
     color: var(--cl-main-dark);
+    font-style: normal;
 }
 
+.mail {
+    letter-spacing: 0.02em;
+    color: var(--cl-main-dark);
+}
+.phone {
+    letter-spacing: 0.02em;
+    color: var(--cl-main-dark);
+}
+.mail:hover .phone:hover .mail:focus .phone:focus {
+    color: var(--cl-logo-ocean);
+}
 /* #endregion header */
 /* #region Main */
 /* Hero Section Styles */
@@ -99,10 +112,12 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
     font-size: 56px; 
     line-height: 1.07; 
+    letter-spacing: 0.02em; 
     color: var(--cl-main-background-light); 
 }
 
 .btn-hero {
+    font-family: var(--main-font);
     background-color: var(--cl-logo-ocean); 
     font-weight: 500; 
     letter-spacing: 0.04em; 
@@ -232,9 +247,12 @@ p {
     text-decoration: underline;
 }
 
-.footer-title .footer-logo span {
+.footer-title  {
     color: var(--cl-logo-cloud);
     letter-spacing: 0.02em;
 }
-
+.footer-logo span{
+    color: var(--cl-logo-cloud);
+    letter-spacing: 0.02em;
+}
 /* #endregion footer */
