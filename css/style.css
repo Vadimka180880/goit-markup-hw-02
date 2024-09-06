@@ -91,9 +91,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-hero {
     font-family: var(--main-font);
-    background-color: var(--cl-logo-ocean); 
+    background-color: var(--cl-logo-second);
+    font-size: 16px;
     font-weight: 500; 
     letter-spacing: 0.04em; 
+    line-height: 1.5;
     color: var(--cl-main-background-light); 
     cursor: pointer; 
 }
@@ -112,9 +114,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .Studio {
-    font-size: 36px; 
-    font-weight: 700; 
-    line-height: 1.11; 
+    font-size: 20px; 
+    font-weight: 500; 
+    line-height: 1.2; 
     letter-spacing: 0.02em; 
     text-align: center; 
     color: var(--cl-navy-blue); 
@@ -128,7 +130,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: var(--cl-main-dark); 
+    color: var(--cl-main-dark);
+    letter-spacing: 0.02em; 
 }
 
 /* #endregion Effective Solutions */
