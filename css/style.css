@@ -146,11 +146,11 @@ p {
 /* #endregion Effective Solutions */
 
 /* #region Our Team */
-.team-section {
+
+.Portfolio {
     background-color: var(--footer-text-color);    
 }
-
-.team-title {
+.Portfolio-Team-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -158,27 +158,22 @@ p {
     text-transform: capitalize;
     color: var(--cl-navy-blue);
 }
-
-.team-member {
-    background-color: var(--cl-main-background-light);    
-}
-
-.team-name {
+.Portfolio-Team-name {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     color: var(--cl-navy-blue);
 }
-
-.team-specialization {
+.Portfolio-Team-specialization {
     color: var(--cl-main-dark);
     letter-spacing: 0.02em;
 }
-/* #endregion */
+/* #endregion Our Team */
 
 /* #region Our Portfolio */
 .portfolio-section {
-    background-color: var(--cl-logo-cloud);   
+    background-color: var(--cl-logo-cloud);  
+    letter-spacing: 0.02em;
 }
 
 .portfolio-title {
@@ -228,7 +223,7 @@ p {
 }
 
 .footer-logo span {
-    color: #F4F4FD;
+    color: var(--cl-logo-cloud);
 }
 
 .footer-nav a {
