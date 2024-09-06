@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 .logo-light {
     background-color: var(--cl-logo-second);
 }
+.logo-light span {
+    background-color: var(--cl-navy-blue);
+}
 
 .logo-dark {
     color: var(--cl-navy-blue);
@@ -86,14 +89,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .mail {
     letter-spacing: 0.02em;
-    color: var(--cl-main-dark);
+    color:  #434455;
 }
 .phone {
     letter-spacing: 0.02em;
-    color: var(--cl-main-dark);
+    color:  #434455;
 }
 .mail:hover .phone:hover .mail:focus .phone:focus {
-    color: var(--cl-logo-ocean);
+    color: #404bbf ;
 }
 /* #endregion header */
 /* #region Main */
@@ -245,7 +248,7 @@ p {
     color: var(--cl-logo-cloud);
     letter-spacing: 0.02em;
 }
-.footer-logo span {
+.footer-logo .logo-dark span {
     color: var(--cl-logo-cloud);
     letter-spacing: 0.02em;
 }
