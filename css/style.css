@@ -36,7 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* #endregion */
 /* #region header */
-.logo, .logo-light, .logo-dark {
+.page-header ,.logo .logo-span {
+    color: var(--cl-navy-blue);
+}
+
+.logo {
     font-family: var(--second-font);
     font-size: 18px;
     font-weight: 700;
@@ -46,54 +50,30 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-logo-second);     
 }
 
-.logo-light {
-    background-color: var(--cl-logo-second);
-}
-.logo-light span {
+.page-nav {
     background-color: var(--cl-navy-blue);
+    font-weight: 500;
 }
 
-.logo-dark {
-    color: var(--cl-navy-blue);
+.page-nav .link:hover  
+.page-nav .link:focus
+.page-nav .link:active
+.contacts-list .link:hover
+.contacts-list .link:focus {
+    background-color: var(--cl-logo-ocean);
 }
 
-.logo:hover, .logo:focus, .logo-light:hover, .logo-light:focus, .logo-dark:hover, .logo-dark:focus, .header-address:hover, .header-address:focus {
-    color: var(--cl-logo-ocean); 
-}
-
-.header-nav-list {
-    color: var(--cl-navy-blue);
-    letter-spacing: 0.02em;
-}
-
-.header-nav-item a {
-    font-weight: 500;   
-    color: var(--cl-navy-blue);     
-}
-
-.header-nav-item a:hover, .header-nav-item a:focus {
-    color: var(--cl-logo-ocean); 
-}
-.nav-link {
-    color: var(--cl-main-dark); 
-}
-
-.nav-link:hover, .nav-link:focus {
-    color: var(--cl-logo-ocean); 
-}
-
-.header-address {
-    color: var(--cl-main-dark);
+.contacts {
     font-style: normal;
 }
 
-.link{
-    letter-spacing: 0.02em;
-    color:  #434455;
+.contacts-list ,.link {
+    color: var(--cl-main-dark);
 }
-.link:hover .link:focus {
-    color: #404bbf ;
+.logo-light {
+    background-color: var(--cl-logo-second);
 }
+
 /* #endregion header */
 /* #region Main */
 /* Hero Section Styles */
