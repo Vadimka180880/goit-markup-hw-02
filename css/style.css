@@ -207,10 +207,9 @@ p {
 
 /* #region footer */
 /* Footer Styles */
-.site-footer {
+.footer {
     background-color: var(--cl-navy-blue);
-    text-align: center;
-    padding: 20px 0;
+    text-align: center;    
 }
 
 .footer-logo {
