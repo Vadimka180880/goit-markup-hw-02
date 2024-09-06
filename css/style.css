@@ -85,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-address {
-    font-family: var(--main-font);
     color: var(--cl-main-dark);
 }
 
@@ -98,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title {
-    font-family: var(--main-font); 
     font-size: 56px; 
     line-height: 1.07; 
     color: var(--cl-main-background-light); 
@@ -106,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-hero {
     background-color: var(--cl-logo-ocean); 
-    font-family: var(--main-font); 
     font-weight: 500; 
     letter-spacing: 0.04em; 
     color: var(--cl-main-background-light); 
@@ -127,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .Studio {
-    font-family: var(--main-font);
     font-size: 36px; 
     font-weight: 700; 
     line-height: 1.11; 
@@ -144,7 +140,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: var(--main-font);
     color: var(--cl-main-dark); 
 }
 
@@ -156,7 +151,6 @@ p {
 }
 
 .team-title {
-    font-family: var(--main-font);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -170,7 +164,6 @@ p {
 }
 
 .team-name {
-    font-family: var(--main-font);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -178,7 +171,6 @@ p {
 }
 
 .team-specialization {
-    font-family: var(--main-font);
     color: var(--cl-main-dark);
 }
 /* #endregion */
@@ -189,7 +181,6 @@ p {
 }
 
 .portfolio-title {
-    font-family: var(--main-font);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -203,7 +194,6 @@ p {
 }
 
 .portfolio-name {
-    font-family: var(--main-font);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -211,7 +201,6 @@ p {
 }
 
 .portfolio-specialization {
-    font-family: var(--main-font);
     color: var(--cl-main-dark);
 }
 /* #endregion */
