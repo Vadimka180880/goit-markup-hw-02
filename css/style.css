@@ -113,10 +113,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.02em;
 }
 
-#Studio {
-    background-color: var(--cl-logo-cloud); 
-}
-
 .Studio {
     font-size: 20px; 
     font-weight: 500; 
@@ -143,12 +139,13 @@ p {
 /* #region Our Team */
 
 .Portfolio {
-    background-color: var(--footer-text-color);    
+    background-color: var(--cl-logo-cloud);    
 }
 .Portfolio-Team-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--cl-navy-blue);
