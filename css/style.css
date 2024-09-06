@@ -87,15 +87,11 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-.mail {
+.link{
     letter-spacing: 0.02em;
     color:  #434455;
 }
-.phone {
-    letter-spacing: 0.02em;
-    color:  #434455;
-}
-.mail:hover .phone:hover .mail:focus .phone:focus {
+.link:hover .link:focus {
     color: #404bbf ;
 }
 /* #endregion header */
