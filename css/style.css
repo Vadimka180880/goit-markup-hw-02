@@ -46,12 +46,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-logo-second);     
 }
 
-.logo-light, .logo-dark {
-    width: 115px;
-    height: 24px;
-    opacity: 1;
-}
-
 .logo-light {
     background-color: var(--cl-logo-second);
 }
@@ -247,11 +241,11 @@ p {
     text-decoration: underline;
 }
 
-.footer-title  {
+.footer-title {
     color: var(--cl-logo-cloud);
     letter-spacing: 0.02em;
 }
-.footer-logo span{
+.footer-logo span {
     color: var(--cl-logo-cloud);
     letter-spacing: 0.02em;
 }
