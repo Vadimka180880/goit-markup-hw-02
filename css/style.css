@@ -172,6 +172,7 @@ p {
 
 .team-specialization {
     color: var(--cl-main-dark);
+    letter-spacing: 0.02em;
 }
 /* #endregion */
 
@@ -186,6 +187,7 @@ p {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
     color: var(--cl-navy-blue);
 }
 
@@ -197,6 +199,7 @@ p {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--cl-navy-blue);
 }
 
@@ -208,7 +211,7 @@ p {
 /* #region footer */
 /* Footer Styles */
 .footer {
-    background-color: var(--cl-navy-blue);
+    background-color: #2E2F42;
     text-align: center;    
 }
 
@@ -223,7 +226,7 @@ p {
 }
 
 .footer-logo span {
-    color: var(--cl-logo-cloud);
+    color: #F4F4FD;
 }
 
 .footer-nav a {
