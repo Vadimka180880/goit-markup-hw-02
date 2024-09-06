@@ -193,6 +193,7 @@ p {
 
 .portfolio-item {
     background-color: var(--cl-main-background-light);
+    letter-spacing: 0.02em;
 }
 
 .portfolio-name {
@@ -205,6 +206,7 @@ p {
 
 .portfolio-specialization {
     color: var(--cl-main-dark);
+    letter-spacing: 0.02em;
 }
 /* #endregion */
 
