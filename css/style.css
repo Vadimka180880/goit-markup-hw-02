@@ -89,10 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-main-background-light); 
 }
 
-.btn-hero {
+.btn {
     font-family: var(--main-font);
     background-color: var(--cl-logo-second);
-    font-size: 16px;
     font-weight: 500; 
     letter-spacing: 0.04em; 
     line-height: 1.5;
@@ -100,6 +99,10 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer; 
 }
 
+.btn-hero {
+    background-color: var(--cl-logo-second);
+    color: var(--cl-main-background-light);
+}
 .btn-hero:hover, .btn-hero:focus {
     background-color: var(--cl-logo-ocean); 
 }
