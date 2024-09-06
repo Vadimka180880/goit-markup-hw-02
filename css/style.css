@@ -222,10 +222,6 @@ p {
     color: var(--cl-logo-second);
 }
 
-.footer-logo span {
-    color: var(--cl-logo-cloud);
-}
-
 .footer-nav a {
     color: var(--cl-main-background-light);
     text-decoration: none;
@@ -236,7 +232,7 @@ p {
     text-decoration: underline;
 }
 
-.footer-title {
+.footer-title .footer-logo span {
     color: var(--cl-logo-cloud);
     letter-spacing: 0.02em;
 }
