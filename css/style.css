@@ -60,18 +60,17 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-navy-blue);
 }
 
-.page-nav .nav-link:hover
-.page-nav .nav-link:focus
-.contacts-list .nav-link:hover
-.contacts-list .nav-link:focus {
-    background-color: var(--cl-logo-ocean);
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--cl-logo-ocean); 
 }
 
 .contacts {
     font-style: normal;
+    color: var(--cl-main-dark);
 }
 
-.contacts-list ,.link {
+.contacts-list .link {
     color: var(--cl-main-dark);
 }
 .page-header a.header-logo span {
