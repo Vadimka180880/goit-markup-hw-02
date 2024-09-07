@@ -148,20 +148,44 @@ h1, h2, h3, h4, h5, h6 {
 /* #endregion Effective Solutions */
 
 /* #region Our Team */
-
 .portfolio {
-    background-color: var(--cl-logo-cloud);    
+    background-color: #F4F4FD;
 }
+
 .section-title {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-list .items {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.title, .description {
     color: var(--cl-navy-blue);
 }
 
+.title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
 /* #endregion Our Team */
+
 
 /* #region Our Portfolio */
 .portfolio-section {
@@ -198,9 +222,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .description {
     line-height: 1.5;
-}
-.team-list .item {
-    background-color: var(--cl-main-background-light);
 }
 /* #endregion */
 
