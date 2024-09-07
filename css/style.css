@@ -70,8 +70,8 @@ h1, h2, h3, h4, h5, h6 {
 .contacts-list ,.link {
     color: var(--cl-main-dark);
 }
-.page-header a.header-logo span {
-    color: var(--cl-navy-blue);
+.header .logo-text {
+    color: #2e2f42;
 }
 
 
