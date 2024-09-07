@@ -55,6 +55,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+.nav-link{
+    letter-spacing: 0.02em;
+    color: var(--cl-navy-blue);
+}
+
+.nav-link:hover .nav-link:focus
 .page-nav .link:hover  
 .page-nav .link:focus
 .page-nav .link:active
