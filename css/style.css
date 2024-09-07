@@ -152,15 +152,14 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio {
     background-color: var(--cl-logo-cloud);    
 }
-/* .portfolio-team-title {
+.section-title {
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--cl-navy-blue);
-} */
+}
 
 /* #endregion Our Team */
 
@@ -199,6 +198,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .description {
     line-height: 1.5;
+}
+.team-list .item {
+    background-color: var(--cl-main-background-light);
 }
 /* #endregion */
 
