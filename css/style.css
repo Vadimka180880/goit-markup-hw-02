@@ -149,10 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* #region Our Team */
 
-.Portfolio {
+.portfolio {
     background-color: var(--cl-logo-cloud);    
 }
-.Portfolio-Team-title {
+/* .portfolio-team-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     text-transform: capitalize;
     color: var(--cl-navy-blue);
-}
+} */
 
 /* #endregion Our Team */
 
