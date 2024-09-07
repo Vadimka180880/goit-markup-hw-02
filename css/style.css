@@ -72,10 +72,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #434455; 
 }
 
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf; 
-}
 .page-header a.header-logo span {
     color: #2e2f42;
 }
@@ -86,7 +82,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-main-dark);
 }
 
-.cont-link:hover .cont-link:focus {
+.contacts .contacts-list .cont-link:hover 
+.contacts .contacts-list .cont-link:focus {
     color: var(--cl-logo-ocean);
 }
 /* #endregion header */
