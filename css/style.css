@@ -70,9 +70,10 @@ h1, h2, h3, h4, h5, h6 {
 .contacts-list ,.link {
     color: var(--cl-main-dark);
 }
-.logo-light {
-    background-color: var(--cl-logo-second);
+.footer a.footer-logo span {
+    color: var(--cl-navy-blue);
 }
+
 
 /* #endregion header */
 /* #region Main */
