@@ -221,12 +221,14 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.footer-title {
-    color: var(--cl-logo-cloud);
+.footer-text {
+    color: var(--cl-logo-cloud); 
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.footer-logo .logo-dark span {
-    color: var(--cl-logo-cloud);
-    letter-spacing: 0.02em;
+
+.footer-logo span {
+    color: #f4f4fd;
 }
+
 /* #endregion footer */
