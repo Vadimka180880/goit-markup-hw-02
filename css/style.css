@@ -28,7 +28,7 @@ ul {
     list-style-type: none;
 }
 
-link {
+a {
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -50,8 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #4d5ae5;
 }
 
-.page-nav {
-    background-color: var(--cl-navy-blue);
+.page-nav {   
     font-weight: 500;
 }
 
@@ -64,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-nav .nav-link:focus,
 .contacts-list .cont-link:hover,
 .contacts-list .cont-link:focus {
-    color: #404bbf; /* Зміна кольору при hover і focus */
+    color: #404bbf; 
 }
 
 .contacts {
@@ -108,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--cl-logo-ocean);
 }
 
-
 /* #endregion Main */
 
 /* #region Effective Solutions */
@@ -151,7 +149,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title {
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -194,7 +191,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-title {
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -230,7 +226,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer Styles */
 .footer {
     background-color: #2E2F42;
-    text-align: center;    
 }
 
 .footer-logo {
