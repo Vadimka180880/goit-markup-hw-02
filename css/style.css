@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-navy-blue);
 }
 
-.logo {
+.header-logo {
     font-family: var(--second-font);
     font-size: 18px;
     font-weight: 700;
