@@ -79,8 +79,16 @@ h1, h2, h3, h4, h5, h6 {
 .page-header a.header-logo span {
     color: #2e2f42;
 }
+.contacts {
+    font-style: normal;
+}
+.cont-link {
+    color: var(--cl-main-dark);
+}
 
-
+.cont-link:hover .cont-link:focus {
+    color: var(--cl-logo-ocean);
+}
 /* #endregion header */
 /* #region Main */
 /* Hero Section Styles */
