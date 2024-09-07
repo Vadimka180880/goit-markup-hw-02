@@ -183,7 +183,9 @@ h1, h2, h3, h4, h5, h6 {
 .description {
     font-size: 16px;
     line-height: 1.5;
+    color: var(--cl-main-dark);
 }
+
 /* #endregion Our Team */
 
 
@@ -220,8 +222,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-main-dark);
     letter-spacing: 0.02em;
 }
+
 .description {
     line-height: 1.5;
+    color: var(--cl-main-dark);
 }
 /* #endregion */
 
