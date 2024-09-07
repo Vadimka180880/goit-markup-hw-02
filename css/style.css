@@ -60,12 +60,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-navy-blue);
 }
 
-.nav-link:hover .nav-link:focus
-.page-nav .link:hover  
-.page-nav .link:focus
-.page-nav .link:active
-.contacts-list .link:hover
-.contacts-list .link:focus {
+.page-nav .nav-link:hover
+.page-nav .nav-link:focus
+.contacts-list .nav-link:hover
+.contacts-list .nav-link:focus {
     background-color: var(--cl-logo-ocean);
 }
 
