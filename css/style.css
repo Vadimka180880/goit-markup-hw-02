@@ -60,18 +60,21 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cl-navy-blue);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.page-nav li:first-child .nav-link:hover,
+.page-nav li:first-child .nav-link:focus {
     color: var(--cl-logo-ocean); 
 }
 
-.contacts {
-    font-style: normal;
-    color: var(--cl-main-dark);
+.contact-link {
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color: #434455; 
 }
 
-.contacts-list .link {
-    color: var(--cl-main-dark);
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf; 
 }
 .page-header a.header-logo span {
     color: #2e2f42;
